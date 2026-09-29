@@ -5,12 +5,10 @@
     {
       "binding": "CACHE_KV",
       "id": "0bc8ffd9012d4610a4a8e0ce03fbc32d",
-      "preview_id": "e9e499fe006e4879a0668e792fe2dd15"
     },
     {
       "binding": "RATE_LIMIT_KV",
       "id": "823293622e8140aabe28b7b068b0b6c6",
-      "preview_id": "bbed039364e5488e8ed58701c3ee5da5"
     }
   ],
   "main": "src/index.ts",
@@ -33,12 +31,6 @@
   "placement": {
     "mode": "smart"
   },
-  "routes": [
-    {
-      "pattern": "dplx.xi-xu.me",
-      "custom_domain": true
-    }
-  ],
   "triggers": {
     "crons": ["*/5 * * * *"]
   },
@@ -46,5 +38,5 @@
     "DEBUG_MODE": "false",
     "PROXY_URLS": "https://0.xdpl.xixu.dpdns.org/jsonrpc,https://1.xdpl.xixu.dpdns.org/jsonrpc,https://2.xdpl.xixu.dpdns.org/jsonrpc,https://3.xdpl.xixu.dpdns.org/jsonrpc,https://4.xdpl.xixu.dpdns.org/jsonrpc,https://5.xdpl.xixu.dpdns.org/jsonrpc,https://6.xdpl.xixu.dpdns.org/jsonrpc,https://7.xdpl.xixu.dpdns.org/jsonrpc,https://8.xdpl.xixu.dpdns.org/jsonrpc,https://9.xdpl.xixu.dpdns.org/jsonrpc"
   },
-  "workers_dev": false
+  "workers_dev": true
 }
